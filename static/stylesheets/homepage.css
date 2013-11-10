@@ -1,0 +1,90 @@
+body{
+	background-color:#A8A8A8;
+}
+
+#outsidebox{
+	height:100%;
+	padding-bottom:100px;
+	max-width:800px;
+	min-width:700px;
+}
+
+#helloworld{
+	position:relative;
+	height:125px;	
+}
+
+#helloworld h1{ 
+        color:#FFCC33;
+        font-family:'Gochi Hand',cursive;
+        font-size:100px;
+}
+
+a{	
+	color:#FFCC33;
+	text-decoration:none;
+}
+
+ul{
+        width:100%;
+        padding:0;
+        margin:0;
+        list-style-type:none;
+}
+
+#menu div{
+	width: 800px;
+}
+
+#menu a{
+        display:inline-block;
+        padding:10px;
+        background-color:black;
+        color:white;
+	text-decoration:none;
+}
+
+#menu li{
+
+        display:inline;
+        font-family:'Gochi Hand',cursive;
+        font-size: 160%;
+}
+
+#menu ul{
+        
+        background-color:black;
+        list-style:none;
+        width:auto;
+        text-align:center;
+}
+
+#me{
+	margin-top:30px;
+}
+
+#me td{
+
+}
+
+#me #water{
+	padding:0px;
+	margin:0px;
+}
+
+#me #paragraph{
+
+	height:381px;
+	position:relative;
+	top:-55px;
+	margin-left:10px;
+}
+
+#me p{
+
+        color:white;
+        padding:10px;
+        font-size:400%;
+        font-family:'Gochi Hand',cursive;
+		
+}
