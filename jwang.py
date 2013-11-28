@@ -11,9 +11,17 @@ def home():
 def about():
     return render_template('about.html')
 
-@app.route('/portfolio', methods=['GET'])
+@app.route('/projects', methods=['GET'])
 def portfolio():
-    return render_template('portfolio.html')
+    return render_template('projects.html')
+
+@app.route('/artwork', methods=['GET'])
+def artwork():
+    return render_template('artwork.html')
+
+@app.route('/contact', methods=['GET'])
+def contact():
+    return render_template('contact.html')
 
 if __name__=='__main__':
     port = int(os.environ.get("PORT",2121))
