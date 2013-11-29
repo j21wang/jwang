@@ -99,6 +99,11 @@ h1:hover{
     margin:50px 110px;
 }
 
+#orb{
+    width:700px;
+    height:auto;
+}
+
 h2{
     color:white;
     font-family: 'Average Sans',sans-serif;
