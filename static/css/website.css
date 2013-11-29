@@ -67,7 +67,6 @@ h1{
 }
 
 .project{
-    font-family: 'Average Sans',sans-serif;
     color:white;
     display:inline-block;
 }
@@ -96,14 +95,11 @@ h1:hover{
     margin:50px 110px;
 }
 
-#contactImage{
+.aboutContainer{
+    margin:50px 110px;
 }
 
-#contactLeft{
-}
-
-#contactRight{
-}
-
-#contactPanel{
+h2{
+    color:white;
+    font-family: 'Average Sans',sans-serif;
 }
