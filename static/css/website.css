@@ -49,7 +49,7 @@ img{
     border:2px solid white;
 }
 
-.panel{
+#joycePanel{
     opacity:0.5;
     position:relative;
     bottom:150px;
@@ -89,5 +89,18 @@ h1:hover{
 }
 
 .projects{
-   margin:50px 110px; 
+    margin:50px 110px; 
+}
+
+.contactContainer{
+    margin:50px 110px;
+}
+
+#contactLeft{
+}
+
+#contactRight{
+}
+
+#contactPanel{
 }
