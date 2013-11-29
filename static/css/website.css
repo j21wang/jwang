@@ -96,6 +96,9 @@ h1:hover{
     margin:50px 110px;
 }
 
+#contactImage{
+}
+
 #contactLeft{
 }
 
@@ -103,4 +106,9 @@ h1:hover{
 }
 
 #contactPanel{
+    opacity: 0.5;
+    position:fixed;
+    bottom:0px;
+    width:40%;
+    left:0%;
 }
