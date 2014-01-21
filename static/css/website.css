@@ -99,6 +99,10 @@ h1:hover{
     margin:50px 110px;
 }
 
+.cs170Container{
+    margin:50px 110px;
+}
+
 #orb{
 }
 
@@ -108,4 +112,8 @@ h1:hover{
 h2{
     color:white;
     font-family: 'Average Sans',sans-serif;
+}
+
+h3{
+    color:white;
 }

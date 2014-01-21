@@ -19,6 +19,10 @@ def portfolio():
 def artwork():
     return render_template('artwork.html')
 
+@app.route('/cs170', methods=['GET'])
+def cs170():
+    return render_template('cs170.html')
+
 @app.route('/contact', methods=['GET'])
 def contact():
     return render_template('contact.html')
