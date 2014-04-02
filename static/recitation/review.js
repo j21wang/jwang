@@ -31,8 +31,6 @@ if(letter == "d" || letter == "o" || letter == "g"){
     alert("4");
 }
 
------------
-
 //What's the difference between what's above and doing:
 var letter = "c";
 if(letter == "d" || letter == "o" || letter == "g"){
@@ -51,8 +49,8 @@ if (letter == "c" || letter == "m"){
 
 -----------
 
-//Write a function multiply that multiplies three numbers if all the numbers are greater than or equal to 5; if any of the numbers are less than 5, then set result to be -1
-//alert result afterwards
+//Write a function multiply that multiplies three numbers if all the numbers are greater than or equal to 5; if any of the numbers are less than 5, then set result to be -1, and alert result afterwards
+
 //To start, create a global variable and set it to 0:
 var result = 0;
 //Do we have to call the function?
@@ -70,7 +68,7 @@ for(var i=0; i<5; i++){
     number = number + 2;
 }
 //what does number equal at the end of this? alert it!
-//
+
 -----------
 
 //How do we make an array that contains all the letters a-z?
@@ -115,3 +113,5 @@ for(var i=0; i<10; i++){
     n--;
 }
 alert(sum);
+
+//GOOD LUCK ON THE EXAM!
