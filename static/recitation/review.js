@@ -23,7 +23,7 @@ if(price <= 0 || price >= 5){
 var letter = "c";
 if(letter == "d" || letter == "o" || letter == "g"){
     alert("1");
-} else if (letter != "c" || letter == "a" || letter == "t"){
+} else if (letter != "c" || letter != "a" || letter == "t"){
     alert("2");
 } else if (letter == "c" || letter == "m"){
     alert("3");
@@ -53,11 +53,38 @@ if (letter == "c" || letter == "m"){
 
 //To start, create a global variable and set it to 0:
 var result = 0;
+function multiply(num1, num2, num3){
+    if(num1>=5 && num2>=5 && num3>=5){
+        result = num1*num2*num3;
+        alert(result);
+    }else{
+        result = -1;
+        alert(result);
+    }
+}
+
+var answer = prompt("What is the first number you want to multiply?");
+var answer2 = prompt("What is the first number you want to multiply?");
+var answer3 = prompt("What is the first number you want to multiply?");
+multiply(answer,answer2,answer3);
+multiply(2,2,2);
+multiply(6,10,1);
 //Do we have to call the function?
 
 -----------
 
 //Make an HTML button, and on the click of the button, alert how many times the button has been clicked (write a function)
+
+<body>
+    <button onclick="countClicks()">Click me!</button>
+    <script>
+        var numClicks = 0;
+        function countClicks(){
+            numClicks++;
+            alert(numClicks);
+        }
+    </script>
+</body>
 
 -----------
 
@@ -74,22 +101,34 @@ for(var i=0; i<5; i++){
 //How do we make an array that contains all the letters a-z?
 //After we make this array, how do we print out all the letters backwards from z to a?
 
+//forwards
+var alphabetArr = new Array("a","b","c","d","e"...);
+for(var i=0;i<alphabetArr.length;i++){
+    document.write(alphabetArr[i]);
+}
+
+//backwards
+for(var i=alphabetArr.length;i>=0;i--){
+    document.write(alphabetArr[i]);
+}
+
+
+
 -----------
 
 //Debugging - What is wrong?
 //Example 1:
 var test = false;
-if(var test = true){
-    alert(I am outside the else block);
+if(test == true){
+    alert("I am outside the else block");
 } else {
-    alert(I am inside the else block);
+    alert("I am inside the else block");
 }
 
 -----------
 
 //Variable tracing
 //Example 2:
-var b,c;
 var b = 2;
 var c = 1;
 c = b++;
@@ -103,7 +142,7 @@ What are the values of b and c?
 var n = 5;
 var sum = 0;
 var digit = 0;
-for(var i=0; i<10; i++){
+for(var i=0; i<4; i++){
     if(n>2){
         digit = 2;
     } else {
