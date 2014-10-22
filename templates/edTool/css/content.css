@@ -1,0 +1,42 @@
+.selection {
+  background: #BCE;
+  background-color: #BEC;
+  border: 1px solid #89B;
+  position: absolute;
+}
+
+.size2 {
+  height: 118px;
+  line-height: 118px;
+}
+
+.size3 {
+  height: 178px;
+  line-height: 178px;
+}
+
+.drop {
+  background: #EEE;
+  border: 1px dashed #888;
+  float: left;
+  margin: 0 10px 10px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.dropped {
+  background-color: #EBC;
+  border-color: #B89;
+} 
+
+.active {  
+  background-color: #CEB;
+  border-color: #9B8;
+}
+
+.selection {
+  border: thin solid black;
+  opacity: 0.65;
+  position: absolute;
+  z-index: 99999999;
+}
