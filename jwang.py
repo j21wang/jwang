@@ -28,7 +28,7 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/edtool', methods=['GET'])
-def contact():
+def edtool():
     return render_template('edTool/popup.html')
 
 
