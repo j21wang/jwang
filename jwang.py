@@ -27,10 +27,6 @@ def cs170():
 def contact():
     return render_template('contact.html')
 
-@app.route('/edtool', methods=['GET'])
-def edtool():
-    return render_template('edTool/popup.html')
-
 
 if __name__=='__main__':
     port = int(os.environ.get("PORT",2121))
