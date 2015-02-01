@@ -1,2 +1,5 @@
 venv
 *.pyc
+id_rsa*
+.DS_Store
+Procfile
